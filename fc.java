@@ -9,16 +9,22 @@ public class fc
     {
 
         Scanner masuk = new Scanner(System.in);
-
+        //deklarasi tipe data
         int jl, jumlah, hlbr;
         String member;
         System.out.println("SELAMAT DATANG DI BAGUS FOTO COPY");
+        
+        //Input apakah customer merupakan anggota/pelanggan tetap
         System.out.print("Apakah Pelanggan? (Y/N) =");
         member = masuk.nextLine();
+        
+        //Input jumlah fotokopi
         System.out.print("Jumlah Fotokopi =");
         jl = masuk.nextInt();
-
+        
+        //equalsignorecase digunakan untuk membandingkan String dengan tidak memperdulikan huruf besar dan kecilnya.
         if (member.equalsIgnoreCase("Y")) {
+            //pembeda harga antara member dan tidak
 
             hlbr = 100;
 
