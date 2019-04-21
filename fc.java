@@ -13,7 +13,7 @@ public class fc
         int jl, jumlah, hlbr;
         String member;
         System.out.println("SELAMAT DATANG DI BAGUS FOTO COPY");
-        System.out.print("Apakah Pelanggan? =");
+        System.out.print("Apakah Pelanggan? (Y/N) =");
         member = masuk.nextLine();
         System.out.print("Jumlah Fotokopi =");
         jl = masuk.nextInt();
