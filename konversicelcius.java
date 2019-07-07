@@ -5,6 +5,7 @@ Tugas Pemrograman JAVA.
 Soal: Buatlah sebuah program java yang membaca suatu derajat dalam celcius dari keyboard menggunakan kelas Scanner, kemudian mengkonversinya menjadi derajat fahrenheit
 dan menampilkan hasilnya!
 
+Terima Kasih!
 */
 
 import java.util.Scanner;
